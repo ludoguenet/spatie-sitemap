@@ -1,11 +1,16 @@
 <?php
 
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\ProjectController;
+use App\Http\Controllers\TermController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/projects', [ProjectController::class, 'index'])->name('projects.index');
+Route::get('/terms', [TermController::class, 'index'])->name('terms.index');
 
 Route::get('/dashboard', function () {
     return view('dashboard');
