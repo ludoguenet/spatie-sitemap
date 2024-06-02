@@ -5,4 +5,25 @@
             <changefreq>daily</changefreq>
         <priority>0.8</priority>
             </url>
+    <url>
+        <loc>http://sitemaps.test/terms</loc>
+        <xhtml:link rel="alternate" hreflang="uk" href="http://sitemaps.test/terms-of-services-in-english" />
+            <changefreq>yearly</changefreq>
+        <priority>0.0</priority>
+            </url>
+    <url>
+        <loc>http://sitemaps.test/projects</loc>
+            <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+            </url>
+    <url>
+        <loc>http://sitemaps.test/projects?page=2</loc>
+            <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+            </url>
+    <url>
+        <loc>http://sitemaps.test/projects?page=3</loc>
+            <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+            </url>
 </urlset>
